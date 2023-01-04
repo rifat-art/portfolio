@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+.header{
+    background-color: wheat;
+    background-image: url(/portfolio/images/header_bg.png), url(/portfolio/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right , left;
+    
+}
+
+.f-color{
+    color: red;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+nav ul li{
+    list-style: none;
+    margin: 10px;;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.button{
+    background-color: orange;
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 3px;
+    
+}
+
+/* banner section */
+
+
+.banner{
+    display: flex;
+    margin: 0px 200px;
+    padding: 25px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+.ft-banner{
+    font-size: 35px;
+    font-weight: 400px;
+}
+.st-banner{
+    font-size: 65px;
+    font-weight: 600px;
+    margin: 35px 0px;
+}
+.tt-banner{
+    font-size: 18px;
+    font-weight: 300px;
+    margin-bottom: 30px;
+}
+/* banner section */
+
+/* About */
+.about-main{
+    margin: 0px 200px;
+    justify-content: center;
+    
+}
+.about-section{
+    background-color: bisque;
+    margin: 50px auto;
+    padding: 200px 100px;
+
+}
+.section-title{
+    font-size: 35px;
+    text-align: center;
+    
+}
+.section-discription{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+    margin: 25px 0px;
+
+}
+/* About */
